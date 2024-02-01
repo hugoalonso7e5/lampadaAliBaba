@@ -14,7 +14,7 @@ fun main(){
     println()*/
 
     //Exercici 2
-    var l2:Lampada = Lampada("cuina",false)
+    /*var l2:Lampada = Lampada("cuina",false)
     l2.encendreLampada()
     println()
     l2.canviarColor()
@@ -37,6 +37,6 @@ fun main(){
     l2.augmentarIntensitat()
     l2.augmentarIntensitat()
     l2.augmentarIntensitat()
-
+*/
 
 }
