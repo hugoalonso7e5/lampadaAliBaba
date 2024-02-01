@@ -31,7 +31,7 @@ class Lampada {
             this.intensitat++
             println(this)
         }else{
-            println("Lampada apagada")
+            println("$identificador - Lampada apagada")
         }
     }
 
@@ -41,15 +41,15 @@ class Lampada {
             this.colorString = this.colors[colorInt]
             println(this)
         }else{
-            println("Lampada apagada")
+            println("$identificador - Lampada apagada")
         }
     }
 
     override fun toString(): String {
         return if(!this.estat){
-            "Lampada Apagada"
+            "$identificador - Lampada Apagada"
         }else{
-            "Lampada Encesa - Color: ${this.colorString} - Intensitat: ${this.intensitat}"
+            "$identificador - Lampada Encesa - Color: ${this.colorString} - Intensitat: ${this.intensitat}"
         }
     }
 
