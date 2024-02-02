@@ -10,7 +10,6 @@ class Lampada {
     constructor(identificador:String,estat:Boolean){
         this.identificador = identificador
         this.estat = estat
-        this.intensitat = intensitat
     }
 
     fun encendreLampada(){

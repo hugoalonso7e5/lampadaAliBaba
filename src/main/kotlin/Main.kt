@@ -1,4 +1,4 @@
-fun main() {
+/*fun main() {
     println("Aixó es una lampada. Escull entre les seguents opcions per realitzar una acció.")
     var menuBool = false //Boolean que controla si es torna a executar el menu o no.
     var status = false // Boolean de l'estat de la lampada. (false = apagada / true = encesa)
@@ -49,4 +49,4 @@ fun canviarColor(colorActualInt: Int): Int {
     return if(colorActualInt==4){
         0
     }else colorActualInt+1
-}
+}*/
